@@ -1,12 +1,12 @@
 ﻿<?php
 /*
-'网址搭建学习网免费分享www.xuezuoweb.com
+'why的博客wanghaoyuan.top
 */
 error_reporting(0);
 header('Content-Type: text/html; charset=UTF-8');
 header("Cache-Control: no-store, no-cache");
 include 'txprotect.php';
-$target = 'http://www.xuezuoweb.com';
+$target = 'http://wanghaoyuan.top';
 function checkmobile() {
 	$useragent = strtolower($_SERVER['HTTP_USER_AGENT']);
 	$ualist = array('android', 'midp', 'nokia', 'mobile', 'iphone', 'ipod', 'blackberry', 'windows phone');
